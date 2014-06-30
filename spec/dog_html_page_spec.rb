@@ -34,6 +34,7 @@ describe DogHTMLPage do
 
   describe "#list" do
     it "returns a list of the dog names in the order given" do
+      skip
       dog_html_page = DogHTMLPage.new([{:name => "Harleigh"},
                                        {:name => "Mali"},
                                        {:name => "Puff"},
@@ -45,6 +46,7 @@ describe DogHTMLPage do
     end
 
     it "returns nothing if there are no dogs" do
+      skip
       dog_html_page = DogHTMLPage.new([])
 
       list_html = dog_html_page.list
